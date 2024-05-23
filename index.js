@@ -1,4 +1,4 @@
-const titleList = ["dǝɟʎɐןןǝ", "𝐝𝐞𝐟𝐲𝐚𝐥𝐥𝐞", "ᴅᴇғʏᴀʟʟᴇ", "𝘥𝘦𝘧𝘺𝘢𝘭𝘭𝘦", "ｄｅｆｙａｌｌｅ",];
+const titleList = ["𝙙𝙚𝙛𝙮𝙖𝙡𝙡𝙚", "𝐝𝐞𝐟𝐲𝐚𝐥𝐥𝐞", "𝘥𝘦𝘧𝘺𝘢𝘭𝘭𝘦", "𝚍𝚎𝚏𝚢𝚊𝚕𝚕𝚎", "dǝɟʎɐllǝ", "ｄｅｆｙａｌｌｅ"];
 let titleIndex = 0;
 
 setInterval(() => {
@@ -6,5 +6,4 @@ setInterval(() => {
     document.title = titleList[titleIndex];
 }, 100);
 
-let vid = document.getElementById("banakalsa.mp3");
-vid.volume = 0.2;
+
