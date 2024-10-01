@@ -5,5 +5,3 @@ setInterval(() => {
     titleIndex = (titleIndex + 1) % titleList.length;
     document.title = titleList[titleIndex];
 }, 100);
-
-
